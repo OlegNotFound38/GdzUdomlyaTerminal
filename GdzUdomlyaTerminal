@@ -1,0 +1,35 @@
+import webbrowser
+import time
+
+subjects = ["Английский SB🇬🇧📔", "Английский WB🇬🇧📒", "Химия🧪", "История🏛", "Обществознание🧻"]
+
+print('Привет, это гдз (на этот раз) Удомля. Выбирай предмет, прост цифру отправь\n')
+time.sleep(2)
+
+for i in range(len(subjects)):
+    print(i+1, subjects[i])
+    time.sleep(0.4)
+
+print()
+subject = int(input())
+
+print("Теперь страницу/параграф\nЕсли есть тире(-), то через него, без пробелов\n")
+
+page = input()
+
+if subject == 1:
+    link = f"https://gdz.ru/class-8/english/reshebnik-spotlight-8-angliyskiy-v-fokuse-vaulina-yu-e/{page}-s/"
+elif subject == 2:
+    link = f"https://gdz.ru/class-8/english/spotlight-workbook/{page}-s/"
+elif subject == 3:
+    link = f"https://gdz.ru/class-8/himiya/sbornik-zadach-po-himii-8-klass-kuznecov/{page[0]}-chapter-{page[2::]}/"
+elif subject == 4:
+    link = f"https://reshak.ru/otvet/reshebniki.php?otvet={page}&predmet=medinsky_torkunov8"
+elif subject == 5:
+    link = f"https://gdz.ru/class-8/obshhestvoznanie/reshebnik-bogolyubov-l-n/{page}-s/"
+    
+print("\nВот ссылка:")
+print("\nУдачи")
+print(link)
+
+webbrowser.open(link)
