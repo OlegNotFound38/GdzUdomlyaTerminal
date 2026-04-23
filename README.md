@@ -11,8 +11,6 @@
 Ввел три цифры - и готовая страница с ответом уже открыта, а Михаил даже ни разу "неОтвет" сказать не успел. И ты заслуженно после урока говоришь ему "Эй, старый, поставь мне пятерку".
 ### Пример
 
-Привет, это гдз Удомля. Выбирай предмет и прост цифру отправь
-
 + 3
 + 3-38
 
@@ -37,8 +35,6 @@ Enter three digits—and the ready answer page is already open before Mikhail ev
 ---
 
 ### Example
-
-Hello, this is Udomlya GDZ. Choose a subject and just send a number:
 
 * 3
 * 3-38
