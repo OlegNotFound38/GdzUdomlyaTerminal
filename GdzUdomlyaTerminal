@@ -1,14 +1,13 @@
 import webbrowser
 import time
 
-subjects = ["Английский SB🇬🇧📔", "Английский WB🇬🇧📒", "Химия🧪", "История🏛", "Обществознание🧻"]
+subjects = ["Английский SB📔", "Английский WB📒", "Химия🧪", "История🏛", "Обществознание🧻"]
 
-print('Привет, это гдз (на этот раз) Удомля. Выбирай предмет, прост цифру отправь\n')
-time.sleep(2)
+print('Привет, это гдз Удомля. Выбирай предмет и прост цифру отправь\n')
 
 for i in range(len(subjects)):
-    print(i+1, subjects[i])
     time.sleep(0.4)
+    print(i+1, subjects[i])
 
 print()
 subject = int(input())
